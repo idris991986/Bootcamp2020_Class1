@@ -32,5 +32,4 @@ jobs:
         
       - name: Depolying using surge
         run : surge ./ bootcamp2020cw.surge.sh --token $ {{ secrets.SURGE_TOKEN }}
-          echo Add other actions to build,
-          echo test, and deploy your project.
+
